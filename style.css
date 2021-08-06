@@ -16,6 +16,13 @@ body {
     margin-right: auto;
 }
 
+.partenaire_footer{
+    color: white;
+}
+.partenaire-ul{
+    color: white!important;
+}
+
 
 
 .text-center{
@@ -86,6 +93,7 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    color: cornsilk!important;
 }
 
 a:hover {
@@ -558,6 +566,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: rgb(253, 246, 224)!important;
 }
 
 .icon-lg {
@@ -994,8 +1003,11 @@ h4 {
     color: white;
 }
 .partenaire-ul{
-    color: white;
+    color: white!important;
 }
+a:visited {
+    color:white!important;
+  }
 
     .black-background {
         background-color: rgba(98, 78, 24, 0.7);
