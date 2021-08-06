@@ -7,6 +7,81 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/*des changements effectués modifié*/
+.paragraphe-modifie{
+    font-size: x-large;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.text-center{
+    font-size:18px ;
+}
+
+.citation{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(97, 48, 3);
+    padding: 0 10%;
+    
+
+}
+.paragraph-bloc3{
+    font-size: 18px;
+}
+.paragraph-bloc32{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.2px;
+}
+.paragraph-bloc4{
+    font-size: 20px;
+    width: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(125, 28, 28);
+}
+.paragraph-bloc8{
+    padding: 3%;
+}
+
+
+/*fin de changement*/
+
+
+
+/* modification Contact*/
+#presentation-titre{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.contact-adress{
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    font-weight: 550;
+    margin-top: 25px;
+    margin-left: 3%;
+}
+.champ-form{
+    font-weight:bolder;
+    font-size: 16px;
+}
+
+
+
+
+.site-navigation a {
+        font-size: 22px;
+        font-weight: 500;
+        font-family:   cursive, sans-serif;
+        color: black;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -275,6 +350,7 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    padding-bottom: 4%;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -284,7 +360,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 42px;
+    font-weight:bold;
 }
 
 .navbar {
@@ -363,6 +440,9 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+
+
+
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -436,12 +516,13 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
+    margin-top: 14px;
     margin-bottom: 20px;
 }
 
 .mg-lg {
     margin-top: 10px;
+    line-height: 22px;
     margin-bottom: 40px;
 }
 
@@ -658,9 +739,7 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
+
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -692,7 +771,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -771,21 +849,26 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#2f1407;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff56c!important;
+    font-size: 22px;
+    font-weight: 540;
+    
+
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #2f1407;
+    color: #f3c86c!important;
+    font-size: 18px;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #f3c86c!important;
 }
 
 .ltc-white {
@@ -822,7 +905,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -890,6 +973,49 @@ h4 {
 }
 
 @media (max-width: 767px) {
+/*modification seo*/
+.row-no-gutters{
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: row; 
+}
+.img-responsive{
+    object-fit: cover;
+    width: 100%;
+}
+.paragraph-bloc4{
+    margin-top: -30px;
+
+}
+.partenaire_footer{
+    padding-left: 20px;
+}
+.col-sm-4{
+    color: white;
+}
+.partenaire-ul{
+    color: white;
+}
+
+    .black-background {
+        background-color: rgba(98, 78, 24, 0.7);
+        padding: 6px ;
+        text-align: center;
+
+    }
+    .paragraphe-modifie{
+        width: 96%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .paragraph-bloc4{
+        width: 90%;
+        font-size: 22px;
+       
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -980,7 +1106,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40 0 ;
     }
     .bloc-sm,
     .bloc-md {
