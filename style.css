@@ -15,6 +15,25 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.bloc2-titre{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 700;
+    color:  #f3c86c !important;
+
+}
+
+.bloc3-titre{
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    color:  #312304 !important;
+
+}
 
 .partenaire_footer{
     color: white;
@@ -54,6 +73,16 @@ body {
 .paragraph-bloc8{
     padding: 3%;
 }
+.contact{
+    font-weight: bold;
+    color: #f3c86c !important;
+}
+
+#presentation-paragraph{
+    line-height: 28px;
+    
+}
+
 
 
 /*fin de changement*/
