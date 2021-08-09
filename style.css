@@ -83,7 +83,7 @@ body {
 
 
 .site-navigation a {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500;
         font-family:   cursive, sans-serif;
         color: black;
@@ -931,14 +931,22 @@ h4 {
     }
 }
 
+@media (max-width: 900px) and (min-width: 700px) {
+    .liste-modifi{
+        width: 300px;
+    }
+}
+
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
+       
     }
     .nav-center.navbar .nav {
         max-width: 100%
     }
 }
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
@@ -1006,7 +1014,7 @@ h4 {
     color: white!important;
 }
 a:visited {
-    color:white!important;
+    color:rgb(255, 238, 143)!important;
   }
 
     .black-background {
@@ -1131,7 +1139,7 @@ a:visited {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding-left: 0;
-        padding-right: 0;
+         padding-right: 0;
     }
     .a-block {
         padding: 0 10px;
