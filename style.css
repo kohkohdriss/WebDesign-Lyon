@@ -1020,6 +1020,10 @@ h4 {
 
 @media (max-width: 767px) {
 /*modification seo*/
+
+.bg-banniere {
+    background-image: url("img/la-chouette-agence-banniere-mobile.jpg");
+}
 .row-no-gutters{
     display: flex;
     justify-content:space-around ;
