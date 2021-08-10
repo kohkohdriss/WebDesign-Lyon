@@ -1024,6 +1024,9 @@ h4 {
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere-mobile.jpg");
 }
+.bg-presentation {
+    background-image: url("img/image-de-presentation-mobile.jpg");
+}
 .row-no-gutters{
     display: flex;
     justify-content:space-around ;
